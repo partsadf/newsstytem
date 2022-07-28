@@ -1,0 +1,21 @@
+.formContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 500px;
+    height: 330px;
+    padding: 20px;
+    color: white;
+    z-index: 999;
+}
+.formLogin{
+    text-align: center;
+    font-size: 23px;
+    height: 80px;
+    color: white;
+}
+.ant-checkbox + span{
+    color: white;
+}
